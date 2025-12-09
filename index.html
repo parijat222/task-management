@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Task List Management</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Trello‑Style Task Manager</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Task List Management</h1>
-    <p class="instructions">click on the task after adding to mark it completed!</p>
-    <div class="container">
-    <div style="display: flex; margin-bottom: 20px;">
-    <input type="text" id="taskInput" placeholder="Add a new task">
-    <button id="addTaskBtn">Add</button>
-    </div>
-    <ul id="taskList"></ul>
-    </div>
-    <script src="script.js"></script>
+<header>
+<h1>Task List Management System</h1>
+</header>
+
+
+<main>
+<div id="board"></div>
+
+
+<button id="addColumnBtn">+ Add Column</button>
+</main>
+
+
+<script src="script.js"></script>
 </body>
 </html>
